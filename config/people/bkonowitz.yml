@@ -13,6 +13,7 @@ recipes:
     - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
     - osxdefaults::dock_set_magnification_on
     - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
+    - osxdefaults::dock_wipe_all_default_app_icons_from_dock
     - osxdefaults::enable_safari_debug_menu
     - osxdefaults::enable_standard_function_keys
     - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
