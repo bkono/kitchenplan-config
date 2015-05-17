@@ -37,7 +37,7 @@ attributes:
   osxdefaults:
     computername: endor
     terminal:
-      profile: Pro
+      profile: Solarized-Dark-ansi
   homebrewalt:
     apps:
       - git-extras
