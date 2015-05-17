@@ -1,13 +1,17 @@
 groups:
-    - groupa
+  - groupa
 recipes:
-    mac_os_x:
-        - osxdefaults::set_computer_name
+  mac_os_x:
+    - osxdefaults::set_computer_name
 attributes:
-    osxdefaults:
-        computername: MyComputerName
+  osxdefaults:
+    computername: endor
     homebrewalt:
-        apps:
-            - git-extras
-        cask_apps:
-            - sourcetree
+      apps:
+        - git-extras
+      cask_apps:
+        - sourcetree
+      cask_fonts:
+        - anonymous-pro
+        - sauce-code-powerline
+        - source-code-pro
