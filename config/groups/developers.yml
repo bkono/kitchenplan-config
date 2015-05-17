@@ -4,6 +4,7 @@ recipes:
 attributes:
   homebrewalt:
     apps:
+      - direnv
       - git-extras
     cask_apps:
       - cyberduck
