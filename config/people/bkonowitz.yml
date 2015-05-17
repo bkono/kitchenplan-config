@@ -1,5 +1,5 @@
 groups:
-  - groupa
+  - developers
 recipes:
   mac_os_x:
     - osxdefaults::set_computer_name
@@ -10,7 +10,19 @@ attributes:
       apps:
         - git-extras
       cask_apps:
-        - sourcetree
+        - 1password
+        - adium
+        - calibre
+        - devonthink-pro
+        - flux
+        - handbrakecli
+        - makemkv
+        - textexpander3
+        - things
+        - torbrowser
+        - vagrant
+        - vlc
+        - ynab
       cask_fonts:
         - anonymous-pro
         - sauce-code-powerline

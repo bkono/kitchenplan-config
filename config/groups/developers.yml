@@ -1,0 +1,17 @@
+recipes:
+  mac_os_x:
+    - osxdefaults::set_terminal_profile
+attributes:
+  homebrewalt:
+    apps:
+      - git-extras
+    cask_apps:
+      - cyberduck
+      - hipchat
+      - java
+      - java7
+      - pgadmin3
+      - robomongo
+      - slack
+      - utc-menu-clock
+      - virtualbox
