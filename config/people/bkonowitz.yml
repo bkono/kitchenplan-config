@@ -25,6 +25,7 @@ recipes:
     - osxdefaults::set_terminal_profile
     - osxdefaults::speed_up_mission_control_animations
     - osxdefaults::set_computer_name
+    - osxdefaults::trackpad_three_finger_swipe_down_expose
 attributes:
   osxdefaults:
     computername: endor
