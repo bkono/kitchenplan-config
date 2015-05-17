@@ -3,6 +3,9 @@ recipes:
     - applications::dnsmasq
     - applications::postgresql
     - osxdefaults::set_terminal_profile
+    - osxdefaults::enable_safari_debug_menu
+    - osxdefaults::enable_standard_function_keys
+    - osxdefaults::finder_show_file_extensions
 attributes:
   homebrewalt:
     apps:

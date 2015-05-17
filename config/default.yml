@@ -4,6 +4,11 @@ recipes:
   mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
     - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
     - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
+    - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+    - osxdefaults::check_for_software_updates_daily
+    - osxdefaults::menu_add_battery_percentage
+    - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
+    - osxdefaults::tap_to_click
 attributes:
   homebrewalt:
     apps:

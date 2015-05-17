@@ -4,8 +4,6 @@ recipes:
   mac_os_x:
     - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
     - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
-    - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
-    - osxdefaults::check_for_software_updates_daily
     - osxdefaults::disable_press-and-hold_for_keys_in_favor_of_key_repeat
     - osxdefaults::do_not_show_dashboard_as_a_space
     - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
@@ -14,24 +12,18 @@ recipes:
     - osxdefaults::dock_set_magnification_on
     - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
     - osxdefaults::dock_wipe_all_default_app_icons_from_dock
-    - osxdefaults::enable_safari_debug_menu
-    - osxdefaults::enable_standard_function_keys
     - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
     - osxdefaults::finder_display_full_path
     - osxdefaults::finder_new_finder_windows_shows_homefolder
-    - osxdefaults::finder_show_file_extensions
     - osxdefaults::finder_show_path_bar
     - osxdefaults::finder_show_status_bar
     - osxdefaults::finder_set_preferred_view_style
     - osxdefaults::finder_unhide_home
     - osxdefaults::increase_sound_quality_for_bluetooth_headphones
     - osxdefaults::increase_window_resize_speed_for_cocoa_applications
-    - osxdefaults::menu_add_battery_percentage
-    - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
     - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
     - osxdefaults::set_terminal_profile
     - osxdefaults::speed_up_mission_control_animations
-    - osxdefaults::tap_to_click
     - osxdefaults::set_computer_name
 attributes:
   osxdefaults:
