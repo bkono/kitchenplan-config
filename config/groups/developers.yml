@@ -1,5 +1,7 @@
 recipes:
   mac_os_x:
+    - applications::dnsmasq
+    - applications::postgresql
     - osxdefaults::set_terminal_profile
 attributes:
   homebrewalt:
@@ -16,3 +18,11 @@ attributes:
       - slack
       - utc-menu-clock
       - virtualbox
+    nodejs:
+      apps:
+        - bower
+        - grunt-cli
+        - gulp
+        - express
+        - express-generator
+        - coffee-script
