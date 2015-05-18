@@ -1,0 +1,41 @@
+groups:
+  - family
+recipes:
+  mac_os_x:
+    - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
+    - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
+    - osxdefaults::disable_press-and-hold_for_keys_in_favor_of_key_repeat
+    - osxdefaults::do_not_show_dashboard_as_a_space
+    - osxdefaults::dock_enable_highlight_hover_effect_for_the_grid_view_of_a_stack
+    - osxdefaults::dock_enable_spring_loading_for_all_dock_items
+    - osxdefaults::dock_make_dock_icons_of_hidden_applications_translucent
+    - osxdefaults::dock_show_indicator_lights_for_open_applications_in_the_dock
+    - osxdefaults::dock_wipe_all_default_app_icons_from_dock
+    - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+    - osxdefaults::finder_display_full_path
+    - osxdefaults::finder_new_finder_windows_shows_homefolder
+    - osxdefaults::finder_show_path_bar
+    - osxdefaults::finder_show_status_bar
+    - osxdefaults::finder_set_preferred_view_style
+    - osxdefaults::finder_unhide_home
+    - osxdefaults::increase_sound_quality_for_bluetooth_headphones
+    - osxdefaults::increase_window_resize_speed_for_cocoa_applications
+    - osxdefaults::set_terminal_profile
+    - osxdefaults::speed_up_mission_control_animations
+    - osxdefaults::set_computer_name
+    - osxdefaults::trackpad_three_finger_swipe_down_expose
+attributes:
+  osxdefaults:
+    computername: xwing
+    terminal:
+      profile: Solarized-Dark-ansi
+  homebrewalt:
+    apps:
+      - git-extras
+    cask_apps:
+      - 1password
+      - vlc
+    cask_fonts:
+      - anonymous-pro
+      - sauce-code-powerline
+      - source-code-pro
