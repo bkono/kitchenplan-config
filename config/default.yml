@@ -13,6 +13,7 @@ attributes:
   homebrewalt:
     apps:
       - git
+      - coreutils
     cask_apps:
       - alfred
       - appcleaner
