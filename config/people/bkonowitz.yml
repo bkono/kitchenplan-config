@@ -52,3 +52,10 @@ attributes:
       - anonymous-pro
       - sauce-code-powerline
       - source-code-pro
+  zgen:
+    load:
+      - bkonowitz/dotfiles zsh
+      - bkonowitz/dotfiles vim.symlink
+    oh-my-zsh:
+      - git
+      - golang
