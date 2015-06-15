@@ -1,6 +1,8 @@
 groups:
   - developers
 recipes:
+  global:
+    - zgen::default
   mac_os_x:
     - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
     - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
@@ -56,6 +58,24 @@ attributes:
     load:
       - bkonowitz/dotfiles zsh
       - bkonowitz/dotfiles vim.symlink
+      - bkonowitz/dotfiles chef
+      - bkonowitz/dotfiles direnv
+      - bkonowitz/dotfiles go
+      - bkonowitz/dotfiles gpg
+      - bkonowitz/dotfiles java
+      - bkonowitz/dotfiles node
+      - bkonowitz/dotfiles ruby
+      - bkonowitz/dotfiles tmux
+      - bkonowitz/dotfiles git
+      - bkonowitz/dotfiles hub
+      - bkonowitz/dotfiles docker
+      - bkonowitz/dotfiles brew
+      - bkonowitz/dotfiles zsh/kono
+      - zsh-users/zsh-syntax-highlighting
+      - zsh-users/zsh-history-substring-search
     oh-my-zsh:
       - git
       - golang
+      - brew
+      - brew-cask
+      - osx
