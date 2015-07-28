@@ -27,8 +27,10 @@ attributes:
       - tmux
       - tmate
     cask_apps:
+      - chefdk
       - cyberduck
       - hipchat
+      - hub
       - java
       - java7
       - pgadmin3
