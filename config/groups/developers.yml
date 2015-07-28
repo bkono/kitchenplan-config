@@ -8,6 +8,8 @@ recipes:
     - osxdefaults::finder_show_file_extensions
 attributes:
   homebrewalt:
+    taps:
+      - nviennot/tmate
     apps:
       - boot2docker
       - casperjs

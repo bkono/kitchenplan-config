@@ -9,3 +9,4 @@ cookbook "drivers",               :github => "kitchenplan/chef-drivers",        
 cookbook "sudoalt",               :github => "kitchenplan/chef-sudoalt",        :ref => "v2.4"
 cookbook "dmg",                   :github => "opscode-cookbooks/dmg",           :ref => "v2.1.4"
 cookbook "zgen",                  :github => "bkono/chef-zgen"
+cookbook "windows", 		  :github => "opscode-cookbooks/windows", 	:ref => "v1.36.6"
