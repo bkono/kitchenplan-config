@@ -24,7 +24,6 @@ attributes:
       - iterm2-beta
       - skype
       - sophos-anti-virus-home-edition
-      - spotify
       - viscosity
     cask_fonts:
       - inconsolata

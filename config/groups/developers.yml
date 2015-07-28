@@ -9,8 +9,21 @@ recipes:
 attributes:
   homebrewalt:
     apps:
+      - boot2docker
+      - casperjs
+      - ctags
       - direnv
+      - elixir
       - git-extras
+      - go
+      - maven
+      - redis
+      - rabbitmq
+      - ruby-install
+      - s3cmd
+      - the_silver_searcher
+      - tmux
+      - tmate
     cask_apps:
       - cyberduck
       - hipchat

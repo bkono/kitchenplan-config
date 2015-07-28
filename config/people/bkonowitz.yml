@@ -36,14 +36,19 @@ attributes:
   homebrewalt:
     apps:
       - git-extras
+      - hugo
     cask_apps:
       - 1password
       - adium
+      - appcleaner
       - calibre
-      - devonthink-pro
-      - flux
+      - deluge
+      - handbrake
       - handbrakecli
+      - keka
       - makemkv
+      - parallels-desktop
+      - steam
       - textexpander3
       - things
       - torbrowser
