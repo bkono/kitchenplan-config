@@ -3,6 +3,7 @@ groups:
 recipes:
   global:
     - zgen::default
+    - ruby-install::install
   mac_os_x:
     - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
     - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
@@ -83,3 +84,14 @@ attributes:
       - brew
       - brew-cask
       - osx
+  ruby-install:
+    rubies:
+     -
+      ruby: "ruby 2.2.0"
+      user: "bkonowitz"
+     -
+      ruby: "jruby 1.7.19"
+      user: "bkonowitz"
+     -
+      ruby: "jruby 9.0.0.0"
+      user: "bkonowitz"
