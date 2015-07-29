@@ -92,3 +92,6 @@ attributes:
      -
       ruby: "jruby 1.7.19"
       user: "bkonowitz"
+     -
+      ruby: "jruby 9.0.0.0"
+      user: "bkonowitz"
