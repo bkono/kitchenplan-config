@@ -61,21 +61,21 @@ attributes:
       - source-code-pro
   zgen:
     load:
-      - bkonowitz/dotfiles zsh
-      - bkonowitz/dotfiles vim.symlink
-      - bkonowitz/dotfiles chef
-      - bkonowitz/dotfiles direnv
-      - bkonowitz/dotfiles go
-      - bkonowitz/dotfiles gpg
-      - bkonowitz/dotfiles java
-      - bkonowitz/dotfiles node
-      - bkonowitz/dotfiles ruby
-      - bkonowitz/dotfiles tmux
-      - bkonowitz/dotfiles git
-      - bkonowitz/dotfiles hub
-      - bkonowitz/dotfiles docker
-      - bkonowitz/dotfiles brew
-      - bkonowitz/dotfiles zsh/kono
+      - bkono/dotfiles zsh
+      - bkono/dotfiles vim.symlink
+      - bkono/dotfiles chef
+      - bkono/dotfiles direnv
+      - bkono/dotfiles go
+      - bkono/dotfiles gpg
+      - bkono/dotfiles java
+      - bkono/dotfiles node
+      - bkono/dotfiles ruby
+      - bkono/dotfiles tmux
+      - bkono/dotfiles git
+      - bkono/dotfiles hub
+      - bkono/dotfiles docker
+      - bkono/dotfiles brew
+      - bkono/dotfiles zsh/kono
       - zsh-users/zsh-syntax-highlighting
       - zsh-users/zsh-history-substring-search
     oh-my-zsh:
