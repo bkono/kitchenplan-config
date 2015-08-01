@@ -2,7 +2,7 @@ groups:
   - developers
 recipes:
   global:
-    - zgen::default
+    - zgen::kitchenplan
     - ruby-install::install
   mac_os_x:
     - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
