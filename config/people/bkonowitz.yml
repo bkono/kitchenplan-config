@@ -38,6 +38,7 @@ attributes:
     apps:
       - git-extras
       - hugo
+      - watchman
     cask_apps:
       - 1password
       - adium
@@ -87,7 +88,7 @@ attributes:
   ruby-install:
     rubies:
      -
-      ruby: "ruby 2.2.0"
+      ruby: "ruby 2.2.2"
       user: "bkonowitz"
      -
       ruby: "jruby 1.7.19"
