@@ -18,6 +18,7 @@ attributes:
       - elixir
       - git-extras
       - go
+      - heroku-toolbelt
       - maven
       - redis
       - rabbitmq
