@@ -85,6 +85,7 @@ attributes:
       - golang
       - brew
       - brew-cask
+      - mix
       - osx
   ruby-install:
     rubies:
