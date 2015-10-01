@@ -24,6 +24,7 @@ recipes:
     - osxdefaults::finder_unhide_home
     - osxdefaults::increase_sound_quality_for_bluetooth_headphones
     - osxdefaults::increase_window_resize_speed_for_cocoa_applications
+    - osxdefaults::mail_disable_inline_attachment_viewing
     - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
     - osxdefaults::set_terminal_profile
     - osxdefaults::speed_up_mission_control_animations
